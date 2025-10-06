@@ -1,0 +1,19 @@
+.global-top-bar {
+  @apply w-full p-4 bg-gray-800 text-white fixed top-0;
+}
+
+.global-top-bar-container {
+  @apply container grid grid-cols-2 mx-auto;
+}
+
+.global-menu ul {
+  @apply flex justify-end items-center gap-8;
+}
+
+.global-menu ul .global-menu-link {
+  @apply text-gray-300 hover:text-white transition-all;
+}
+
+.global-top-bar-auth-modal .global-top-bar-auth-modal-title {
+  @apply text-xl text-gray-900 capitalize font-bold mb-3;
+}

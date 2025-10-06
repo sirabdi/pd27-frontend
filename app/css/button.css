@@ -1,0 +1,43 @@
+.global-button {
+  @apply inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none disabled:opacity-50 cursor-pointer;
+}
+
+.global-button-size-default {
+  @apply h-9 px-4 py-2;
+}
+
+.global-button-size-lg {
+  @apply h-10 rounded-md px-8;
+}
+
+.global-button-size-sm {
+  @apply h-8 rounded-md px-3 text-xs;
+}
+
+.global-button-size-icon {
+  @apply h-9 w-9;
+}
+
+.global-button-default {
+  @apply bg-slate-900 text-slate-50 shadow hover:bg-slate-900/90;
+}
+
+.global-button-destructive {
+  @apply bg-red-500 text-slate-50 shadow-sm hover:bg-red-500/90;
+}
+
+.global-button-outline {
+  @apply border border-slate-200 bg-white shadow-sm hover:bg-slate-100 hover:text-slate-900;
+}
+
+.global-button-secondary {
+  @apply bg-slate-100 text-slate-900 shadow-sm hover:bg-slate-100/80;
+}
+
+.global-button-ghost {
+  @apply hover:bg-slate-100 hover:text-slate-900;
+}
+
+.global-button-link {
+  @apply text-slate-900 underline-offset-4 hover:underline;
+}
